@@ -1,0 +1,13 @@
+# Unnecessary files
+*.pdf
+*.ipynb
+records
+ReadMe.txt
+
+# Unnecessary folders
+.idea
+.ipynb_checkpoints
+__pycache__
+
+# Environment
+venv
