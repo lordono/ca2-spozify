@@ -10,6 +10,11 @@ app = Flask(__name__,
 CORS(app)
 
 
+@app.route('/', methods=['GET'])
+def root():
+    return app.send_static_file('./index.html')
+
+
 @app.route('/find', methods=['POST'])
 def find_top_music():
 
